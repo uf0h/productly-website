@@ -24,7 +24,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   margin: auto;
   overflow: visible;
@@ -37,7 +37,7 @@ li {
 }
 
 .nav-bar {
-  max-width: 1400px;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -65,7 +65,7 @@ li {
 
 .nav-link {
   font-size: 14px;
-  color: #2F281E;
+  color: #2f281e;
 }
 
 .btns {
@@ -101,7 +101,7 @@ li {
 
 .btn-sign-in {
   margin-right: 14px;
-  color: #173A56;
+  color: #173a56;
 }
 
 /* HEADER */
@@ -110,6 +110,8 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 13px 144px 111px 144px;
+  max-width: 1152px;
+  width: 100%;
 }
 
 .info {
@@ -121,16 +123,17 @@ h1 {
   font-size: 44px;
   margin-top: 0;
   margin-bottom: 30px;
-  color: #2F281E;
-  line-height: 1.2;
+  color: #2f281e;
+  line-height: 1.23;
 }
 
 h4 {
   font-weight: 400;
   font-size: 18px;
   margin-top: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 58px;
   color: #544837;
+  line-height: 1.55;
 }
 
 .btn-link {
@@ -153,6 +156,7 @@ h4 {
 .btn-getstarted {
   margin-right: 6px;
   width: 175px;
+  height: 53px;
 }
 
 /* FEATURE */
@@ -162,14 +166,14 @@ h4 {
   align-items: center;
   margin: 0 144px;
   text-align: center;
-  max-width: 1112px;
+  max-width: 1152px;
   width: 100%;
 }
 
 h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #2F281E;
+  color: #2f281e;
   margin-top: 0;
   margin-bottom: 46px;
 }
@@ -214,4 +218,8 @@ h5 {
   font-size: 16px;
   color: #544837;
   margin: 0;
+}
+
+.btn-signupnow {
+  height: 53px;
 }
